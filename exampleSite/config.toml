@@ -1,4 +1,4 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Meu Portfólio'
-theme = 'hugo-profile'
+theme = "hugo-profile" # Requires the folder to be in /themes/hugo-profile
