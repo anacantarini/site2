@@ -25,11 +25,11 @@ jobs:
     env:
       HUGO_VERSION: 0.128.0
     steps:
-    - name: Checkout
-  uses: actions/checkout@v4
-  with:
-    submodules: true  # or 'recursive'
-    fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Pages
         id: pages
@@ -43,9 +43,10 @@ jobs:
 
       - name: Build with Hugo
         run: |
+          mkdir -p exampleSite/themes
+          ln -s "$GITHUB_WORKSPACE" exampleSite/themes/hugo-profile
           cd exampleSite
           hugo \
-            --themesDir ../.. \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
