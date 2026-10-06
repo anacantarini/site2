@@ -74,7 +74,7 @@ languages:
                     - icon: fab fa-x-twitter
                       url: https://example.com
                   customIcons:
-                    - icon: /fav.png
+                    - icon: fav.png
                       url: "https://example.com"
                       tooltip: Contenido de ejemplo de tooltip
               - name: "Desarrolladora de Software"
@@ -104,7 +104,7 @@ languages:
                     - icon: fab fa-x-twitter
                       url: https://example.com
                   customIcons:
-                    - icon: /fav.png
+                    - icon: fav.png
                       url: "https://example.com"
                 content: |
                   Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
@@ -280,7 +280,7 @@ languages:
                     - icon: fab fa-x-twitter
                       url: https://example.com
                   customIcons:
-                    - icon: /fav.png
+                    - icon: fav.png
                       url: "https://example.com"
                       tooltip: Exemple de contenu d'info-bulle
               - name: "Développeuse de Logiciels"
@@ -310,7 +310,7 @@ languages:
                     - icon: fab fa-x-twitter
                       url: https://example.com
                   customIcons:
-                    - icon: /fav.png
+                    - icon: fav.png
                       url: "https://example.com"
                 content: |
                   Je travaille actuellement comme développeuse de logiciels chez [exemple org.](https://example.com) à San Francisco, CA. Je travaille sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville.
@@ -583,7 +583,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
-        - icon: /fav.png
+        - icon: fav.png
           url: "https://example.com"
 
   # About
@@ -628,7 +628,7 @@ params:
                   url: https://example.com
                   # tooltip: Example tooltip content
               customIcons:
-                - icon: /fav.png
+                - icon: fav.png
                   url: "https://example.com"
                   tooltip: Example tooltip content
           - name: "Software Developer"
@@ -660,7 +660,7 @@ params:
               - icon: fab fa-x-twitter
                 url: https://example.com
             customIcons:
-              - icon: /fav.png
+              - icon: fav.png
                 url: "https://example.com"
           content: |
             I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
@@ -737,10 +737,10 @@ params:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
-        image: /images/achievement.jpg
+        image: images/achievement.jpg
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
+        image: images/achievement.jpg
       - title: Hugo Profile
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
@@ -758,7 +758,7 @@ params:
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+        image: images/projects/profile.png
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
@@ -776,7 +776,7 @@ params:
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+        image: images/projects/converter.jpg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
@@ -789,7 +789,7 @@ params:
 
       - title: Hugo Profile V2
         content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+        image: images/projects/profile2.jpg
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
