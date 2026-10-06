@@ -1,27 +1,27 @@
 baseURL: "https://anacantarini.github.io/site2/"
-languageCode: "en-us"
+languageCode: "pt-br"
 title: "Ana Cantarini"
 theme: hugo-profile
 
-# Multilingual configuration
-defaultContentLanguage: "en"
+# Configuração de idioma padrão
+defaultContentLanguage: "pt"
 defaultContentLanguageInSubdir: false
 
 languages:
-  en:
-    languageName: "English"
+  pt:
+    languageName: "Português"
     weight: 1
     contentDir: "content"
     menu:
       main:
         - identifier: blog
-          name: Blog
-          title: Blog posts
+          name: "Blog"
+          title: "Artigos"
           url: /blogs
           weight: 1
         - identifier: gallery
-          name: Gallery
-          title: Image gallery
+          name: "Galeria"
+          title: "Galeria de Imagens"
           url: /gallery
           weight: 2
   es:
