@@ -45,6 +45,7 @@ jobs:
         run: |
           cd exampleSite
           hugo \
+            --themesDir ../.. \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
